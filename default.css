@@ -1,7 +1,33 @@
-.outer{
-    border: 5px solid black;
-    height: 50px;
-    width: auto;
+body{
+    margin: 0px;
+    background-color: lightblue;
+}
+#outer{    
+    border: 30px solid darkmagenta;
+    height: 1200px;
     background-color: bisque;
+    width: 300px;
     
+}
+#inner{
+    position: relative;
+    background-color: cadetblue;
+    top: 50px;
+    left: 75px;
+    height: 1000px;
+    width: 200px;
+    
+}
+.caja{
+    position: relative;
+    background-color: orange;
+    top: 50px;
+    left: -25px;
+    height: 50px;
+    width: 150px;
+    margin-bottom: 10px;
+    clear: both;
+}
+.setextra{
+    opacity: 0;
 }
